@@ -20,10 +20,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.argya.utsakb.R;
 import com.argya.utsakb.models.DiaryModel;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class DiaryAdapter extends RecyclerView.Adapter<DiaryAdapter.DiaryViewHolder> {

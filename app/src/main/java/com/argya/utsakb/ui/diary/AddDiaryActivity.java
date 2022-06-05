@@ -20,10 +20,7 @@ import com.argya.utsakb.R;
 import com.argya.utsakb.helper.DatabaseHelper;
 import com.argya.utsakb.models.DiaryModel;
 
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.time.Instant;
-import java.util.Calendar;
 import java.util.Date;
 
 public class AddDiaryActivity extends AppCompatActivity {

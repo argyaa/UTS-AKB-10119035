@@ -15,12 +15,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.argya.utsakb.MainActivity;
 import com.argya.utsakb.R;
 import com.argya.utsakb.helper.DatabaseHelper;
 import com.argya.utsakb.models.DiaryModel;
