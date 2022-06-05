@@ -14,7 +14,7 @@
         android:theme="@style/Theme.UTSAKB"
         tools:targetApi="31">
         <activity
-            android:name="com.argya.utsakb.MainActivity"
+            android:name=".SplashScreenActivity"
             android:exported="true"
             android:label="UTSAKB_10119035"
             android:theme="@style/Theme.UTSAKB.NoActionBar">
@@ -25,15 +25,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.argya.utsakb.ui.diary.AddDiaryActivity"
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.diary.AddDiaryActivity"
             android:exported="false"
             android:label="Add Your Diary"
-            android:parentActivityName="com.argya.utsakb.MainActivity" />
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name="com.argya.utsakb.ui.diary.UpdateDiaryActivity"
+            android:name=".ui.diary.UpdateDiaryActivity"
             android:exported="false"
             android:label="Update Diary"
-            android:parentActivityName="com.argya.utsakb.MainActivity" />
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
